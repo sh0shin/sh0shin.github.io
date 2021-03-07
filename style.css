@@ -1,0 +1,36 @@
+/*
+ *
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: #161b22;
+  color: #c9d1d9;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+a,
+a:visited {
+  color: #c9d1d9;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+  font-weight: normal;
+}
+
+.banner,
+.navigation,
+.main,
+.footer {
+  display: block;
+  line-height: 1.1;
+  font-size: calc(0.40em + .5vw);
+}
